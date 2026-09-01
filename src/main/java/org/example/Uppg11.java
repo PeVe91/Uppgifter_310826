@@ -8,6 +8,7 @@ public class Uppg11 {
     }
 
     static double temperatureConverter(int fahrenheit) {
+
         return (1.0*(fahrenheit - 32) * 5 / 9);
     }
 
