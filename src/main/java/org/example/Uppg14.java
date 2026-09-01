@@ -18,6 +18,7 @@ public class Uppg14 {
             return "Buzz";
         } else {
             return "";
+            //Alt. return null;
         }
     }
 }
