@@ -3,11 +3,11 @@ package org.example;
 public class Uppg10 {
     static void main() {
 
-        int inputCelcius = Integer.parseInt(IO.readln("Celcius to Farenheit converter: "));
+        int inputCelsius = Integer.parseInt(IO.readln("Celsius to Farenheit converter: "));
 
-        System.out.println(temperatureConverter(inputCelcius));
+        System.out.println(temperatureConverter(inputCelsius));
     }
-    static double temperatureConverter (int celcius) {
-        return celcius * 1.8 + 32;
+    static double temperatureConverter (int celsius) {
+        return celsius * 1.8 + 32;
     }
 }
