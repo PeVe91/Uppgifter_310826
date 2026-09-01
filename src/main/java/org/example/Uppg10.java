@@ -8,7 +8,6 @@ public class Uppg10 {
         System.out.println(temperatureConverter(inputCelcius));
     }
     static double temperatureConverter (int celcius) {
-        double farenheit = celcius * 1.8 + 32;
-        return farenheit;
+        return celcius * 1.8 + 32;
     }
 }
