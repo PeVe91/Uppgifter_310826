@@ -10,11 +10,15 @@ public class Uppg4 {
         double mean = 1.0*(number1 + number2) / 2;
         int largestNumber = 0;
 
-        if (number1 > number2) {
+        if (number1 >= number2) {
             largestNumber = number1;
         } else {
             largestNumber = number2;
         }
+        /*
+        Alt: ((tal1 >= tal2) ? tal 1 : tal2));
+         */
+
         System.out.println("Largest number: " + largestNumber);
         System.out.println("Mean: " + mean);
     }

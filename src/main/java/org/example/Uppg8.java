@@ -10,5 +10,15 @@ public class Uppg8 {
         number1 = number2;
         number2 = tempNumber;
 
+        //Java känner igen operationen ovan
+        //Använd därför INTE koden nedan
+        
+        /*
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        */
+
+
     }
 }
