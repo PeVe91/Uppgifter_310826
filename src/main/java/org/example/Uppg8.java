@@ -12,7 +12,7 @@ public class Uppg8 {
 
         //Java känner igen operationen ovan
         //Använd därför INTE koden nedan
-        
+
         /*
         a = a ^ b;
         b = a ^ b;

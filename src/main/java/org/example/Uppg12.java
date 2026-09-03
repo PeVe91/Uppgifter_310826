@@ -10,10 +10,6 @@ public class Uppg12 {
 
     }
     static boolean ifTrue (String a, String b) {
-        if (a.equals(b)) {
-            return true;
-        } else {
-            return false;
-        }
+        return a.equals(b);
     }
 }
