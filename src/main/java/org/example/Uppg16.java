@@ -3,6 +3,8 @@ package org.example;
 public class Uppg16 {
     static void main() {
 
+        //OBS. Inkomplett kod
+
         int totalSlices = 800;
         int noRecipients = 4;
         int slicesEach = 2;
