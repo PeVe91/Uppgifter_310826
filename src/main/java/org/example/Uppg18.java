@@ -30,12 +30,12 @@ public class Uppg18 {
     static String result (int die1, int die2) {
         if (die1 > die2)
             return "Spelare 1 vinner";
-        else if (die2 > die1)
+        if (die2 > die1)
             return "Spelare 2 vinner";
-        else if (die1 % 2 == 0)
-            return "Spelare 2 vinner";
-        else
+        if (die1 % 2 != 0)
             return "Spelare 1 vinner";
+
+        return "Spelare 2 vinner";
     }
 
 }
